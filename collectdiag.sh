@@ -46,7 +46,7 @@ log() {
   echo -n "[ $count of $nr_tests] $1 ..."
   echo "#### $count) $1 ####" >> $LOGFILE
   echo "" >> $LOGFILE
-  $1 >> $LOGFILE
+  $1 >> $LOGFILE 2>&1
   echo "" >> $LOGFILE
   echo "" >> $LOGFILE
   echo "" >> $LOGFILE
