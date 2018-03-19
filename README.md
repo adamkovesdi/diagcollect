@@ -4,7 +4,8 @@ General purpose host diag info/log collector script. Configurable for output fil
 
 ## Prerequisites
 
-bash
+- bash
+- tar, gzip (edit script to enable)
 
 ## Usage
 
