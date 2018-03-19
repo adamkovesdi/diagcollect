@@ -1,11 +1,10 @@
 #!/bin/bash
-# Log collector by Adam Kovesdi 2018
-# Edit commands and variables here
+#
+# General purpose Log collector by Adam Kovesdi 2018
+# Edit output file settings and commands below
 
 LOGFILE="/tmp/logs_`hostname -s`.log"
-TARBALL="/tmp/logs_`hostname -s`.tar.gz"
-
-##################################################
+TARBALL="/tmp/logs_`hostname -s`.tar.gz" # enable archiving in compresstarball function
 
 COMMANDS="hostname
 ifconfig -a
@@ -82,3 +81,4 @@ cleanup
 recorddate
 docommands
 recorddate
+compresstarball
