@@ -25,7 +25,7 @@ cleanup() {
 
 banner() {
   echo "###########################################################################"
-  echo "####                    Collecting Host data diag.                     ####"
+  echo "####                    Collecting Host diags/logs                     ####"
   echo "#### (script might take a few minutes depending on your configuration) ####"
   echo "###########################################################################"
 }
